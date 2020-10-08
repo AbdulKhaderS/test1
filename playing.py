@@ -1,5 +1,9 @@
 playing = input("Are you playing? ")
-if playing == "yes":
+while playing == "yes":
     print("Let's play chess")
+    break
 else:
     print("Let's go home")
+
+
+
